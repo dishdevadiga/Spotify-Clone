@@ -1,0 +1,157 @@
+body{
+    background-color: #171111;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Navbar Color*/
+.navbar{
+   background-color: black;
+   overflow: hidden;
+   padding: 5px;
+}
+.navbar a{
+   float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:bold;
+}
+.navbar img{
+    float: left;
+    display: block;
+    padding: 10px 15px 12px 25px;
+    width: 120px;
+    height:35px;
+}
+.navbar a:hover{
+    color:#1DB954;
+}
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+.navbar .icon {
+    display: none;
+  }
+p{
+    color: white;
+    display: block;
+    position: relative;
+    right: 200px;
+    top: 200px;
+  }
+
+.button1{
+  margin:0  auto;
+  text-align: center;
+}
+.signup{
+  background-color: white;
+  display: inline-block;
+  margin: 35px;
+  padding: 35px;
+  border-radius: 8px;
+  height: 450px;
+  width: 350px;
+  
+}
+label {
+  padding-bottom: 2px;
+  padding-top: 10px;
+  display: inline-block;
+  font-weight: 50;
+  font-weight: bold;
+}
+.signup input{
+    float: left;
+    width: 75%;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    padding:10px;
+    border-radius: 5px;
+}
+.signup p{
+  color:black;
+}
+.conditions{
+  font-size: 12px;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+}
+.conditions a:link{
+  color:green;
+}
+.phn{
+display: inline-block;
+}
+
+.btn {
+    background: #1DB954;
+    background-image: linear-gradient(to bottom, #1DB954, #1DB954);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    border-color: #1DB954;
+    font-family: Arial;
+    color: white;
+    font-size: 20px;
+    padding: 10px 110px 10px 110px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #02a13f;
+    background-image: linear-gradient(to bottom, #02a13f, #02a13f);
+    text-decoration: none;
+  }
+.container{
+    max-width:1170px;
+    margin:auto;
+}
+.row{
+    display:flex;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer{
+    background-color:black;
+    padding: 80px 0;
+}
+.box1{
+    width:25%;
+    padding: 0 15px;
+}
+.box1 h3{
+    font-size:18px;
+    color:#828282;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight:bold;
+    letter-spacing:0.1em;
+    position: relative;
+}
+
+.box1 ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.box1 ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight:300;
+    display: block;
+    letter-spacing:0.05em;
+    transition: all 0.3s ease;
+}
+.box1 ul li a:hover{
+    color:#828282;
+    paddinf-left:8px;
+}
+
